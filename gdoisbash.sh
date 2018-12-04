@@ -128,7 +128,7 @@ clear
 	read origemsyncrl
         
 
-	scp $origemsyncrl $ipsyncrl $destinosyncrl
+	rsync $origemsyncrl $ipsyncrl $destinosyncrl
 
 }
 
