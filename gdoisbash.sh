@@ -42,7 +42,7 @@ scp_ll(){
 
 	scp $origem $destino
 }
-
+#scp local remoto
 scp_lr(){
         clear
 	
@@ -59,7 +59,7 @@ scp_lr(){
 	scp $origemlr $iprl $destinolr
         
 }
-
+#scp remoto local
 scp_rl(){
 
  clear
@@ -77,7 +77,7 @@ scp_rl(){
 	scp $origemrl $iprl $destinorl
 
 }
-
+#scp remoto remoto
 scp_rr(){
 
 clear
@@ -95,7 +95,7 @@ clear
 	scp $origemrr $iprr $destinorr
 
 }
-
+#rsync local remoto
 rsync_lr(){
 
 clear
@@ -113,7 +113,7 @@ clear
 	rsync $origemsynclr $ipsynclr $destinosyncrl
 
 }
-
+#rsync remoto local
 rsync_rl(){
 
 clear
